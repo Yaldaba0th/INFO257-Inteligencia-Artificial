@@ -1,9 +1,18 @@
 ¿Que es el sobreajuste/sobre-entrenamiento?¿Como se puede evitar?
+-Es cuando una regresion se ajusta demasiado, resultando en un modelo especifico al caso de entrenamiento que no puede predecir otros casos.
+-Se puede evitar haciendo buen muestreo y cantidad de datos de entrenamiento, manteniendo bajo el grado y dimensiones de la ecuacion de la recta.
 
 ¿Cual es la diferencia entre Precision y Recall? ¿Cual es mejor optimizar?
+-Precision es la proporcion de los reportados positivos que realmente eran positivos.
+-Recall es la proporcion de los positivos reales que fueron identificados como positivos.
+-El cual es mejor optimizar depende del objetivo que se tenga en mente y que se pretenda realizar, aunque en general ambas son importantes.
 
 ¿Qué "aprenden" los algoritmos de aprendizaje supervisado "Regresión Lineal" y "Regresión Logística"? 
+-El de regresion lineal aprende a predecir un valor en vase a una serie de parametros.
+-La regresion logistica calcula la probabilidad, en vase a parametros, de que una entrada pertenesca a una de dos categorias.
 
 ¿Cómo "aprenden" estos algoritmos? 
+-Usan estadistica para ajustar una linea (lineal o logaritmica) de forma que se ajuste mejor a los puntos del conjunto de datos. 
 
 ¿Por qué se dice que el aprendizaje es "supervisado"?
+-Porque el dataset del que "aprenden" fue procesado e ingresado por un ser humano.
